@@ -11,25 +11,28 @@ import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "../AnimatedProgressProvider/AnimatedProgressProvider";
 import ChangingProgressProvider from "../ChargingProgressProvider/ChargingProgressProvider";
 
-const Circulo = ({ valueStart, valueEnd }) => {
+const Circulo = ({ valueStart, valueEnd, name }) => {
   return (
     <AnimatedProgressProvider
       valueStart={valueStart}
       valueEnd={valueEnd}
+      name={name}
       duration={6}
       easingFunction={easeQuadInOut}
-      repeat
+    //   repeat
     >
       {value => {
         const roundedValue = Math.round(value);
         return (
           <CircularProgressbar
             value={value}
+            
             text={`${roundedValue}%`}
             styles={buildStyles({
               pathTransition: "none",
-              textColor: "#f88",
-              trailColor: "#d6d6d6",
+              pathColor: `#B6B5B8`,
+              textColor: "#FAF5F2",
+              trailColor: "#FAF5F2",
               backgroundColor: "#3e98c7"
             })}
           />

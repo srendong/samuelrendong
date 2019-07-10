@@ -1,0 +1,66 @@
+.studies{
+    height: 100vh;
+    background-color: #292D3E;
+}
+
+.studies .contenedor{
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.studies h3 {
+    color: #F2F0E8;
+    font-size: 75px;
+    font-family: $letra-titulo;
+    margin: 40px;
+}
+.studies .tarjeta{
+    width: 30rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.studies .tarjeta{
+    background-color: rgba(72, 80, 104, 0.418);
+    margin: 20px;
+    height: 28rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.studies .imagen{
+    
+    margin: 2rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;  
+}
+
+.studies h5 {
+    color: $color-parrafo-c;
+    font-size: $size-parrafo;
+    font-family: $family-subtitulo;
+    font-weight: $weight-parrafo;
+    display: flex;
+    text-align: center
+}
+
+.studies p{
+    color: $color-parrafo-c;
+    font-size: $size-parrafo;
+    font-family: $family-parrafo;
+    font-weight: $weight-parrafo;
+}

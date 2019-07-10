@@ -1,11 +1,12 @@
 import React from "react";
+import FotoPerfil from "../../images/FotoPerfil.jpg"
 
 const Main = () => {
   return (
     <div className="main">
       <div className="container">
         <div className="row justify-content-center">
-          <img className="imagen my-5 " src="#" alt="#" />
+          <img className="imagen my-5 rounded-circle " src={FotoPerfil} alt="#" />
         </div>
         <div className="row justify-content-md-start">
           <h2 className="titulo col mb-5">Who I am?</h2>

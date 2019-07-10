@@ -3,32 +3,46 @@
   height: 100vh;
   background-color: $fondo-p3;
 //   felx
-//   display: flex;
-//   flex-flow: row wrap;
-//   justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 
 }
 
 .skills h3{
     color: $subtitle-color1;
     font-size: 75px;
-    font-family: $letra-titulo
+    font-family: $letra-titulo;
+    margin: 25px;
+}
+.skills h5{
+  color: $subtitle-color3;
+  font-size: 15px;
+  font-family: $letra-titulo;
+  margin: 2px;
 }
 
-.contenedor{
-    width: 80%;
-    margin: auto
-}
-.elemento1 {
-  background-color: red;
+.skills .contenedor{
+    width: 70%;
+    margin: auto;
+    background-color: $fondo-p3;
+
 }
 
-.elemento2 {
-  background-color: aqua;
-}
-.circle{
-    display: flex;
-    flex-flow: row wrap;
-    width: 30px
+.skills .elemento1{
+  background-color: rgb(125, 133, 110);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
+.skills .elemento2{
+  background-color: rgb(125, 133, 110);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
