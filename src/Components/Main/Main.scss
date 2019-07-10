@@ -1,0 +1,32 @@
+.main {
+  height: 100vh;
+  background-color: $fondo-p2;
+  //flex
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor {
+    background-color: azure;
+    flex-basis: 80%
+
+}
+.main .imagen {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+}
+
+.main .titulo  {
+  // background-color: red;
+  color: $title-color;
+  font-size: 75px;
+  font-family: $letra-titulo;
+}
+
+.main .parrafo {
+  color: $subtitle-color2;
+  font-size: 30px;
+  text-align: left;
+}
