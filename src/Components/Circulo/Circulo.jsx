@@ -19,7 +19,7 @@ const Circulo = ({ valueStart, valueEnd, name }) => {
       name={name}
       duration={6}
       easingFunction={easeQuadInOut}
-    //   repeat
+      // repeat
     >
       {value => {
         const roundedValue = Math.round(value);

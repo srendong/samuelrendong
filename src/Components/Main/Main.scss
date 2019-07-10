@@ -1,11 +1,17 @@
 .main {
   height: 100vh;
-  background-color: $fondo-p2;
+  background-color: $fondo-main;
   //flex
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
+  @media (max-width: 575.98px) {
+    height: 100%;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px){
+    height: 100%;
+  }
 }
 .contenedor {
     background-color: azure;
