@@ -5,6 +5,7 @@ import Main from "./Components/Main/Main";
 import Skills from "./Components/Skills/Skills";
 import Studies from "./Components/Studies/Studies";
 import Works from "./Components/Works/Works"
+import Contact from "./Components/Contact/Contact";
 
 class App extends Component {
   state = {};
@@ -16,6 +17,7 @@ class App extends Component {
         <Skills/>
         <Studies/>
         <Works />
+        <Contact/>
       </div>
     );
   }

@@ -24,7 +24,7 @@ const Skills = () => {
           <h3>Skills</h3>
         </div>
         <div className="row justify-content-center">
-          <div className="elemento1 col-10  p-5">
+          <div className="elemento1 col-10  p-xs-10 p-md-5">
             <div className="row justify-content-center">
               <div className="col-12 text-center" />
               <div className=" col-xs-6 col-sm-4 circulo col-md-2  text-center">
@@ -34,11 +34,11 @@ const Skills = () => {
                   valueEnd={html}
                   name="HTML"
                 />
-                <h5>HTML</h5>
+                <h5>HTML5</h5>
               </div>
               <div className=" col-xs-6 col-sm-4 circulo col-md-2  text-center">
                 <Circulo valueStart={0} valueEnd={css} />
-                <h5>CSS</h5>
+                <h5>CSS3</h5>
               </div>
               <div className=" col-xs-6 col-sm-4 circulo col-md-2  text-center">
                 <Circulo valueStart={0} valueEnd={js} />

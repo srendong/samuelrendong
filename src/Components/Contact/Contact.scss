@@ -1,0 +1,85 @@
+.contact {
+  height: 30vh;
+  background-color: $fondo-contact;
+  @media (max-width: 575.98px) {
+    height: 100%;;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    height: 100%;
+    margin: 3rem;
+  }
+  .contactMe {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .data {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    div {
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+    }
+  }
+  .redes {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .red{
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    margin: .5rem
+  }
+  .red:hover{
+    cursor: pointer;
+  }
+  h3 {
+    font-size: $size-subtitulo;
+    font-weight: $weight-titulo;
+    font-family: $family-titulo;
+    color: $color-titulo-c;
+    margin: 6rem;
+    @media (max-width: 575.98px) {
+      margin: 2rem;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      margin: 3rem;
+    }
+  }
+  h5 {
+    font-size: $size-parrafo;
+    font-weight: $weight-subtitulo;
+    font-family: $family-subtitulo;
+    color: $color-titulo-c;
+    margin: 1rem;
+    @media (max-width: 575.98px) {
+      margin: 0.5rem;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      margin: 0.5rem;
+    }
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: $weight-parrafo;
+    font-family: $family-titulo;
+    color: $color-titulo-c;
+    margin: 1rem;
+    @media (max-width: 575.98px) {
+      margin: 0.5rem;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      margin: 0.5rem;
+    }
+  }
+}
