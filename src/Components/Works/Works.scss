@@ -65,9 +65,12 @@
       width: 15rem;
       height: 15rem;
     }
-    @media (min-width: 992px) {
-      width: 30vh;
-      width: 30vh;
-    }
+    // @media (min-width: 992px) and (max-width: 1199.98px) {
+    //   width: 28vh;
+    //   height:28vh; }
+    // @media (min-width: 1200px) {
+    //   width: 35vh;
+    //   height:35vh;
+    // }
   }
 }
