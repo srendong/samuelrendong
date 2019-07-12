@@ -1,45 +1,38 @@
-.studies{
-    height: 100vh;
-    background-color: $fondo-studies;
-    @media (max-width: 575.98px) { 
-        height: 100%;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px){
-        height: 100%;
-      }
-}
-
-.studies .contenedor{
-    width: 90%;
-    background-color: #fff;
+.studies {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  background-color: $fondo-studies;
+  @media (max-width: 575.98px) {
+    height: 100%;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    height: 100%;
+  }
+  .contenedor {
+    width: 70%;
     display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
     align-items: center;
-}
-
-.studies h3 {
-    color: #F2F0E8;
-    font-size: 75px;
-    font-family: $letra-titulo;
-    margin: 40px;
-}
-.studies .tarjeta{
-    width: 30rem;
+  }
+  .elemento1 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tarjeta {
+    width: 30vh;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
-    @media (max-width: 575.98px) { 
-        width: 20rem;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px){
-        width: 25rem;  
-      }
-}
-.studies .tarjeta{
     background-color: rgba(72, 80, 104, 0.418);
-    margin: 20px;
-    height: 28rem;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -48,31 +41,45 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-}
-.studies .imagen{
-    
-    margin: 2rem;
-    height: 15rem;
-    width: 15rem;
+    justify-content: space-around;
+    @media (max-width: 575.98px) {
+      width: 90%;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      width: 90%;
+    }
+  }
+  .imagen {
+    margin: 1vh;
+    width: 90%;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
-    -o-border-radius: 25px;  
-}
-
-.studies h5 {
+    -o-border-radius: 25px;
+  }
+  h3 {
+    color: #f2f0e8;
+    font-size: 10vh;
+    font-family: $letra-titulo;
+    @media (max-width: 575.98px) {
+      font-size: 4.7rem;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      font-size: 4.7rem;
+    }
+  }
+  h5 {
     color: $color-parrafo-c;
-    font-size: $size-parrafo;
+    font-size: 2vh;
     font-family: $family-subtitulo;
     font-weight: $weight-parrafo;
-    display: flex;
-    text-align: center
-}
-
-.studies p{
+    width: 100%;
+  }
+  p {
     color: $color-parrafo-c;
-    font-size: $size-parrafo;
+    font-size: 3vh;
     font-family: $family-parrafo;
     font-weight: $weight-parrafo;
+  }
 }

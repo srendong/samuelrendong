@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles/App.scss";
-import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
+import Hello from "./Components/Hello/Hello";
+import WhoIam from "./Components/WhoIam/WhoIam";
 import Skills from "./Components/Skills/Skills";
 import Studies from "./Components/Studies/Studies";
 import Works from "./Components/Works/Works"
@@ -12,8 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className>
-        <Header/>
-        <Main/>
+        <Hello/>
+        <WhoIam/>
         <Skills/>
         <Studies/>
         <Works />
