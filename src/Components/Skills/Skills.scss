@@ -51,7 +51,7 @@
     -o-border-radius: 15px  ;
 }
   .circulo {
-    width: 15vh;
+    width: 14.5vh;
     margin: 0.5rem;
     @media (max-width: 575.98px) {
       width: 20%;
@@ -62,6 +62,9 @@
       width: 20%;
       margin-top: 0.8rem;
       margin-bottom: 0.1rem;
+    }
+    @media (min-width: 992px) {
+      width: 16vh;
     }
   }
   h3 {

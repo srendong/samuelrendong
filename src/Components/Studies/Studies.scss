@@ -13,10 +13,17 @@
   }
   .contenedor {
     width: 70%;
+    height: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
+    @media (max-width: 575.98px) {
+      width: 100%;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      width: 100%;
+    }
   }
   .elemento1 {
     width: 100%;
@@ -44,9 +51,11 @@
     justify-content: space-around;
     @media (max-width: 575.98px) {
       width: 90%;
+      margin:0.5rem;
     }
     @media (min-width: 576px) and (max-width: 767.98px) {
       width: 90%;
+      margin:0.5rem;
     }
   }
   .imagen {

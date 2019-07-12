@@ -1,54 +1,55 @@
 .contact {
+  display: flex;
+  flex-flow: row wrap;
   height: 30vh;
+  width: 100%;
   background-color: $fondo-contact;
   @media (max-width: 575.98px) {
-    height: 100%;;
+    height: 100%;
   }
   @media (min-width: 576px) and (max-width: 767.98px) {
     height: 100%;
-    margin: 3rem;
   }
-  .contactMe {
+  .contenido {
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
   }
   .data {
     display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: column wrap;
+    justify-items: space-between;
     align-content: flex-start;
     div {
       display: flex;
-      flex-flow: row;
-      flex-wrap: wrap;
+      flex-flow: row wrap;
+      align-items: baseline
     }
   }
   .redes {
       display: flex;
-      flex-flow: row;
+      flex-flow: row wrap;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       
   }
   .red{
-    width: 4rem;
-    height: 4rem;
+    width: 12vh;
+    height: 12vh;
     background-color: #fff;
-    margin: .5rem
+    margin: .3rem;
   }
   .red:hover{
     cursor: pointer;
   }
   h3 {
-    font-size: $size-subtitulo;
+    font-size: 7vh;
     font-weight: $weight-titulo;
     font-family: $family-titulo;
     color: $color-titulo-c;
-    margin: 6rem;
+    
     @media (max-width: 575.98px) {
       margin: 2rem;
     }
@@ -57,11 +58,10 @@
     }
   }
   h5 {
-    font-size: $size-parrafo;
+    font-size: 4vh;
     font-weight: $weight-subtitulo;
     font-family: $family-subtitulo;
     color: $color-titulo-c;
-    margin: 1rem;
     @media (max-width: 575.98px) {
       margin: 0.5rem;
     }
@@ -70,12 +70,12 @@
     }
   }
   p {
-    font-size: 1.2rem;
+    font-size: 4vh;
     font-weight: $weight-parrafo;
     font-family: $family-titulo;
     color: $color-titulo-c;
-    margin: 1rem;
-    @media (max-width: 575.98px) {
+    margin-left: .5rem;
+     @media (max-width: 575.98px) {
       margin: 0.5rem;
     }
     @media (min-width: 576px) and (max-width: 767.98px) {
