@@ -10,8 +10,6 @@ const Works = () => {
                     <div className="proyect"></div>
                     <div className="proyect"></div>
                     <div className="proyect"></div>
-                    <div className="proyect"></div>
-                    <div className="proyect"></div>
                 </div>
             </div>
         </div>

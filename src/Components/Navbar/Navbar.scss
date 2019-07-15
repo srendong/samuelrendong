@@ -1,75 +1,115 @@
-.nav-bar {
+.Barra-nav {
   display: flex;
-  background-color: rgba(42, 43, 36, 0.596);
-  height: 7vh;
-  width: 70%;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  z-index: 20;
+  height: 15vh;
+  width: 100%;
+  flex-flow: column wrap;
   align-items: center;
-
-  margin: 0.8rem;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  border-radius: 3.5vh;
-  -webkit-border-radius: 3.5vh;
-  -moz-border-radius: 3.5vh;
-  -ms-border-radius: 3.5vh;
-  -o-border-radius: 3.5vh;
-  @media (max-width: 575.98px) {
-    width: 90%;
-  }
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    width: 90%;
-  }
-  h5 {
-    font-weight: $weight-subtitulo;
-    color: white;
-    font-size: 2vh;
-  }
+  justify-content: center;
+  .boton {
+    display: flex;
+    align-self: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 15vh;
+    height: 3vh;
+    border-radius: 1.5vh;
+    background-color: rgb(179, 179, 169);
+    -webkit-border-radius: 1.5vh;
+    -moz-border-radius: 1.5vh;
+    -ms-border-radius: 1.5vh;
+    -o-border-radius: 1.5vh;
+    h3{
+      font-size: 100%;
+      margin: auto;
+      
+    }
 }
-.nav-bar-circulo {
-  display: flex;
-  background-color: rgba(167, 0, 0, 0.596);
-  height: 7vh;
-  width: 70%;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-
-  margin: 0.8rem;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  border-radius: 3.5vh;
-  visibility: collapse;
-  -webkit-border-radius: 3.5vh;
-  -moz-border-radius: 3.5vh;
-  -ms-border-radius: 3.5vh;
-  -o-border-radius: 3.5vh;
-  @media (max-width: 575.98px) {
-    width: 90%;
-  }
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    width: 90%;
-  }
-
-  h5 {
-    font-weight: $weight-subtitulo;
-    color: white;
-    font-size: 2vh;
-    visibility: collapse;
-  }
-  .nbc {
-    width: 5vh;
-    height: 5vh;
-    border-radius:2.5vh;
+  .boton-escondido {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 1.5vh;
     background-color: #fff;
-    visibility: visible;
-    -webkit-border-radius:2.5vh;
-    -moz-border-radius:2.5vh;
-    -ms-border-radius:2.5vh;
-    -o-border-radius:2.5vh;
+    display:none;
+    -webkit-border-radius: 1.5vh;
+    -moz-border-radius: 1.5vh;
+    -ms-border-radius: 1.5vh;
+    -o-border-radius: 1.5vh;
+    h3{
+      display:none
+    }
 }
- 
+
+  .nav-bar {
+    display: flex;
+    background-color: rgb(254, 255, 218);
+    height: 50%;
+    width: 70%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-radius: 3.5vh;
+    -webkit-border-radius: 3.5vh;
+    -moz-border-radius: 3.5vh;
+    -ms-border-radius: 3.5vh;
+    -o-border-radius: 3.5vh;
+    @media (max-width: 575.98px) {
+      width: 90%;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      width: 90%;
+    }
+    .links {
+      font-weight: $weight-subtitulo;
+      color: rgb(89, 107, 106);
+      font-size: 2vh;
+      margin: 0;
+      padding: 0;
+    }
+    .links:hover {
+      cursor: pointer;
+    }
+  }
+  .nav-bar-escondida {
+    display: flex;
+    background-color: rgba(42, 43, 36, 0.596);
+    height: 7vh;
+    width: 70%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    visibility: collapse;
+    margin: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-radius: 3.5vh;
+    -webkit-border-radius: 3.5vh;
+    -moz-border-radius: 3.5vh;
+    -ms-border-radius: 3.5vh;
+    -o-border-radius: 3.5vh;
+    @media (max-width: 575.98px) {
+      width: 90%;
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      width: 90%;
+    }
+    .links{
+      font-weight: $weight-subtitulo;
+      color: white;
+      font-size: 2vh;
+    }
+    .links:hover {
+      cursor: pointer;
+    }
+  }
 }
