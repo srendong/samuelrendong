@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/samuelrendong/static/css/main.2cce8147.chunk.css",
-    "main.js": "/samuelrendong/static/js/main.2c3ecfb3.chunk.js",
-    "main.js.map": "/samuelrendong/static/js/main.2c3ecfb3.chunk.js.map",
+    "main.css": "/samuelrendong/static/css/main.9ec7e1ff.chunk.css",
+    "main.js": "/samuelrendong/static/js/main.e0140ffd.chunk.js",
+    "main.js.map": "/samuelrendong/static/js/main.e0140ffd.chunk.js.map",
     "runtime~main.js": "/samuelrendong/static/js/runtime~main.b5007a61.js",
     "runtime~main.js.map": "/samuelrendong/static/js/runtime~main.b5007a61.js.map",
-    "static/js/2.b41502e9.chunk.js": "/samuelrendong/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/samuelrendong/static/js/2.b41502e9.chunk.js.map",
+    "static/css/2.9e94b197.chunk.css": "/samuelrendong/static/css/2.9e94b197.chunk.css",
+    "static/js/2.a468fc01.chunk.js": "/samuelrendong/static/js/2.a468fc01.chunk.js",
+    "static/js/2.a468fc01.chunk.js.map": "/samuelrendong/static/js/2.a468fc01.chunk.js.map",
     "index.html": "/samuelrendong/index.html",
-    "precache-manifest.13cbf70977de3ca1aa35e5b10aba0760.js": "/samuelrendong/precache-manifest.13cbf70977de3ca1aa35e5b10aba0760.js",
+    "precache-manifest.d233773c79e8d535141c235a82d09293.js": "/samuelrendong/precache-manifest.d233773c79e8d535141c235a82d09293.js",
     "service-worker.js": "/samuelrendong/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/samuelrendong/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/samuelrendong/static/media/logo.5d5d9eef.svg"
+    "static/css/2.9e94b197.chunk.css.map": "/samuelrendong/static/css/2.9e94b197.chunk.css.map",
+    "static/css/main.9ec7e1ff.chunk.css.map": "/samuelrendong/static/css/main.9ec7e1ff.chunk.css.map",
+    "static/media/Eafit.jpg": "/samuelrendong/static/media/Eafit.4dcd405c.jpg",
+    "static/media/FotoPerfil.jpg": "/samuelrendong/static/media/FotoPerfil.06c779a0.jpg",
+    "static/media/Github.png": "/samuelrendong/static/media/Github.8c75b002.png",
+    "static/media/Instagram.png": "/samuelrendong/static/media/Instagram.83121643.png",
+    "static/media/Linkedin.png": "/samuelrendong/static/media/Linkedin.0acf22f5.png",
+    "static/media/Reactjs.png": "/samuelrendong/static/media/Reactjs.60a5b4b1.png"
   }
 }
