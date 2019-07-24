@@ -28,7 +28,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="Barra-nav fixed-top">
-        <div className={this.state.boton} onMouseOver={this.handlerNavIn}></div>
+        <div className={this.state.boton} onMouseOver={this.handlerNavIn}>GO</div>
         <div className={this.state.forma} onMouseLeave={this.handlerNavOut}>
         <Link className="links" smooth={true} to="hello">Home</Link>
         <Link className="links" smooth={true} to="whoIAm">Who I am</Link>

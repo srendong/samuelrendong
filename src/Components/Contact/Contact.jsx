@@ -1,4 +1,9 @@
 import React from "react";
+import Github from "../../images/Github.png"
+import Linkedin from "../../images/Linkedin.png"
+import Instagram from "../../images/Instagram.png"
+
+
 
 const Contact = () => {
   return (
@@ -20,9 +25,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="redes">
-          <div className="red rounded-circle">GH</div>
-          <div className="red rounded-circle">LI</div>
-          <div className="red rounded-circle">IN</div>
+          <a href="https://github.com/srendong" target="_blank" rel="noopener noreferrer" ><img className="red " href="https://www.linkedin.com/in/samuel-rendón-gutiérrez" src={Github} alt=""/></a>
+          <a href="https://www.linkedin.com/in/samuel-rendón-gutiérrez" target="_blank" rel="noopener noreferrer"><img className="red " src={Linkedin} alt=""/></a>
+          <a href="https://www.instagram.com/srendong/" target="_blank" rel="noopener noreferrer"><img className="red " src={Instagram} alt=""/></a>
         </div>
       </div>
     </div>

@@ -42,8 +42,12 @@
     margin: .5rem;
     margin-bottom: 1rem;
     display: flex;
-
-  }
+    border-radius: 5vh  ;
+    -webkit-border-radius: 5vh  ;
+    -moz-border-radius: 5vh  ;
+    -ms-border-radius: 5vh  ;
+    -o-border-radius: 5vh  ;
+}
   .red:hover{
     cursor: pointer;
   }
