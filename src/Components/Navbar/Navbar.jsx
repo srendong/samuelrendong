@@ -32,7 +32,7 @@ class Navbar extends Component {
         <div className={this.state.forma} onMouseLeave={this.handlerNavOut}>
         <Link className="links" smooth={true} to="hello">Home</Link>
         <Link className="links" smooth={true} to="whoIAm">Who I am</Link>
-        <Link className="links" smooth={true} to="skills">Skills</Link>
+        <Link className="links" smooth={true} to="skills" onClick={this.props.changeSkills}>Skills</Link>
         <Link className="links" smooth={true} to="studies">Studies</Link>
         <Link className="links" smooth={true} to="works">Works</Link>
         <Link className="links" smooth={true} to="contact">Contact me</Link>
