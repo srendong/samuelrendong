@@ -1,7 +1,7 @@
 .Barra-nav {
   display: flex;
   z-index: 20;
-  height: 15vh;
+  height: 16vh;
   width: 100%;
   flex-flow: column wrap;
   align-items: center;
@@ -18,39 +18,40 @@
     font-family: $family-titulo;
     font-weight: $weight-subtitulo;
     color: rgb(105, 105, 100);
-    background-color:  rgb(254, 255, 218);
+    background-color: rgb(254, 255, 218);
     -webkit-border-radius: 1.5vh;
     -moz-border-radius: 1.5vh;
     -ms-border-radius: 1.5vh;
     -o-border-radius: 1.5vh;
-    h3{
+    h3 {
       font-size: 100%;
       margin: auto;
-      
     }
-}
+  }
   .boton-escondido {
     display: flex;
+    display: none;
     flex-flow: row wrap;
     justify-content: center;
     width: 3vh;
     height: 3vh;
-    border-radius: 1.5vh;
     background-color: #fff;
-    display:none;
+    border-radius: 1.5vh;
     -webkit-border-radius: 1.5vh;
     -moz-border-radius: 1.5vh;
     -ms-border-radius: 1.5vh;
     -o-border-radius: 1.5vh;
-    h3{
-      display:none
+    h3 {
+      font-size: 0;
     }
-}
-
+  }
+  .go-off {
+    display: none;
+  }
   .nav-bar {
     display: flex;
     background-color: rgb(254, 255, 218);
-    height: 50%;
+    height: 40%;
     width: 70%;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -106,7 +107,7 @@
     @media (min-width: 576px) and (max-width: 767.98px) {
       width: 90%;
     }
-    .links{
+    .links {
       font-weight: $weight-subtitulo;
       color: white;
       font-size: 2vh;
