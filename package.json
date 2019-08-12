@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samuelrendong.com",
+  "homepage": "https://srendong.github.io/samuelrendong/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
