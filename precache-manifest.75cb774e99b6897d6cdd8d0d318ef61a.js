@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12c7e1bd5dab68eb11b4356298d0fcdc",
+    "revision": "29df7efefd9dc6e0828149929ed59113",
     "url": "/samuelrendong/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/samuelrendong/static/css/2.9e94b197.chunk.css"
   },
   {
-    "revision": "04ea19df1d9583c45e89",
-    "url": "/samuelrendong/static/css/main.a6f40849.chunk.css"
+    "revision": "0657870a7357787c60e0",
+    "url": "/samuelrendong/static/css/main.1b4dd058.chunk.css"
   },
   {
     "revision": "244a2a9984473984bdae",
     "url": "/samuelrendong/static/js/2.c9de2d75.chunk.js"
   },
   {
-    "revision": "04ea19df1d9583c45e89",
-    "url": "/samuelrendong/static/js/main.22e41100.chunk.js"
+    "revision": "0657870a7357787c60e0",
+    "url": "/samuelrendong/static/js/main.3a9a226c.chunk.js"
   },
   {
     "revision": "f5adfc4f3493d989dc61",
