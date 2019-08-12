@@ -59,7 +59,7 @@ class Navbar extends Component {
   render() {
     return (
       <div
-        className={classnames("navbar", {
+        className={classnames("navbar fixed-top", {
           "navbar--hidden": !this.state.visible
         })}
       >

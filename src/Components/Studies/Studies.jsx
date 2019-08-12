@@ -16,7 +16,7 @@ const Studies = () => {
             <div className="row justify-content-center">
               <div className="t col-3  d-flex flex-column m-2 p-3">
                 <img className="img-fluid rounded-circle" src={Eafit} alt="" />
-                <h5 className="text-start">
+                <h5 className="text-center">
                   Product Design Engineer <br /><br /> from<br /> <br /> EAFIT university
                 </h5>
               </div>
@@ -26,13 +26,13 @@ const Studies = () => {
                   src={makeFullStack}
                   alt=""
                 />
-                <h5 className="text-start">
+                <h5 className="text-center">
                   Full Satck Developer <br /><br /> from <br /><br /> Make It Real Camp
                 </h5>
               </div>
               <div className="t col-3  d-flex flex-column m-2 p-3">
                 <img className="img-fluid rounded-circle" src={makeReactLogo} alt="" />
-                <h5 className="text-start">
+                <h5 className="text-center">
                   React Developer <br /><br /> from <br /><br /> Make It Real Camp
                 </h5>
               </div>
