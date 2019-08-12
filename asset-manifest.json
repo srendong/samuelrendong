@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/samuelrendong/static/css/main.a6f40849.chunk.css",
-    "main.js": "/samuelrendong/static/js/main.0621c0da.chunk.js",
-    "main.js.map": "/samuelrendong/static/js/main.0621c0da.chunk.js.map",
+    "main.js": "/samuelrendong/static/js/main.22e41100.chunk.js",
+    "main.js.map": "/samuelrendong/static/js/main.22e41100.chunk.js.map",
     "runtime~main.js": "/samuelrendong/static/js/runtime~main.b5007a61.js",
     "runtime~main.js.map": "/samuelrendong/static/js/runtime~main.b5007a61.js.map",
     "static/css/2.9e94b197.chunk.css": "/samuelrendong/static/css/2.9e94b197.chunk.css",
     "static/js/2.c9de2d75.chunk.js": "/samuelrendong/static/js/2.c9de2d75.chunk.js",
     "static/js/2.c9de2d75.chunk.js.map": "/samuelrendong/static/js/2.c9de2d75.chunk.js.map",
     "index.html": "/samuelrendong/index.html",
-    "precache-manifest.f9afadf7c4222d8e27b4709e529c3b0f.js": "/samuelrendong/precache-manifest.f9afadf7c4222d8e27b4709e529c3b0f.js",
+    "precache-manifest.fc55ca9b89383892ed0d200afd0ab92f.js": "/samuelrendong/precache-manifest.fc55ca9b89383892ed0d200afd0ab92f.js",
     "service-worker.js": "/samuelrendong/service-worker.js",
     "static/css/2.9e94b197.chunk.css.map": "/samuelrendong/static/css/2.9e94b197.chunk.css.map",
     "static/css/main.a6f40849.chunk.css.map": "/samuelrendong/static/css/main.a6f40849.chunk.css.map",
