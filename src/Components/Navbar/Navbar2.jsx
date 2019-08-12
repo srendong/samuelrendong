@@ -3,9 +3,35 @@ import { Link } from "react-scroll";
 import classnames from "classnames";
 
 class Navbar extends Component {
-  state = {   
+  state = {
+    In: false,
+    boton: "boton",
+    forma: "nav-bar-escondida",
     prevScrollpos: window.pageYOffset,
     visible: true
+  };
+  handlerNavIn = e => {
+    e.preventDefault();
+    const navL = "nav-bar ";
+    const botonE = "boton-econdido";
+    this.setState({
+      In: true,
+      boton: botonE,
+      forma: navL,
+      go: "go-off"
+    });
+  };
+
+  handlerNavOut = e => {
+    e.preventDefault();
+    const navE = "nav-bar-escondida ";
+    const navL = "nav-bar ";
+    const botonE = "boton-econdido go";
+    const botonV = "boton";
+
+    this.state.forma === navL
+      ? this.setState({ forma: navE, boton: botonV, go: "go-on" })
+      : this.setState({ forma: navL, boton: botonE, go: "go-off" });
   };
 
   componentDidMount() {
@@ -33,10 +59,14 @@ class Navbar extends Component {
   render() {
     return (
       <div
-        className={classnames("navbar", {
+        className={classnames("navbar fixed", {
           "navbar--hidden": !this.state.visible
         })}
       >
+        <div className={this.state.boton} onMouseOver={this.handlerNavIn}>
+          <h3 className={this.state.go}>GO</h3>
+        </div>
+        <div className={this.state.forma} onMouseLeave={this.handlerNavOut}>
           <Link className="links" smooth={true} to="hello">
             Home
           </Link>
@@ -56,6 +86,7 @@ class Navbar extends Component {
             Contact me
           </Link>
         </div>
+      </div>
     );
   }
 }

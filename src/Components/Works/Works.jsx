@@ -22,7 +22,7 @@ const Works = () => {
           </div>
           <div className="w-100"></div>
           <div className="col-5 col-md-3 mb-4">
-            <a href="https://srendong.github.io/image-hunter/" target="_blank" rel="noopener noreferrer"><img className="proyect img-fluid" src={ImageHunter} alt="" /></a>
+            <a href="https://srendong.github.io/images-hunter/" target="_blank" rel="noopener noreferrer"><img className="proyect img-fluid" src={ImageHunter} alt="" /></a>
           </div>
           <div className="col-5 col-md-3 mb-4">
           <a href="https://srendong.github.io/get-your-recipe/" target="_blank" rel="noopener noreferrer"><img className="proyect img-fluid" src={Recipes} alt="" /></a>
