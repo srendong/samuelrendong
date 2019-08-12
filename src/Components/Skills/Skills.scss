@@ -1,94 +1,19 @@
 .skills {
   height: 100vh;
-  width: 100%;
   background-color: $fondo-skills;
-  //   felx
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  @media (max-width: 575.98px) {
-    height: 100%;
-  }
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    height: 100%;
-  }
-  .contenido {
-    width: 70%;
-    height: 100%;
-    background-color: $fondo-skills;
-    //flex 
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 575.98px) {
-      width: 90%;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      width: 90%;
-    }
-  }
-  .elemento1 {
-    background-color: #F29985;
-    padding:.5rem;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    @media(max-width: 575.98px) {
-      margin-bottom: 0.5rem;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      
-      margin-bottom: 0.5rem;
-    }
-    border-radius: 15px  ;
-    -webkit-border-radius: 15px  ;
-    -moz-border-radius: 15px  ;
-    -ms-border-radius: 15px  ;
-    -o-border-radius: 15px  ;
-}
-  .circulo {
-    width: 14.5vh;
-    margin: 0.5rem;
-    @media (max-width: 575.98px) {
-      width: 25%;
-      margin-top: 0.8rem;
-      margin-bottom: 0.1rem;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      width: 25%;
-      margin-top: 0.8rem;
-      margin-bottom: 0.1rem;
-    }
-    @media (min-width: 992px) {
-      width: 16vh;
-    }
-  }
   h3 {
     color: $subtitle-color1;
-    font-size: 10vh;
-    font-family: $letra-titulo;
-    display: flex;
-    @media (max-width: 575.98px) {
-      font-size: 4.7rem
-    }
-    @media (min-width: 576px) and (max-width: 767.98px){
-      font-size: 4.7rem
-    }
+    @include titulo
   }
   h5 {
-    color: $subtitle-color3;
-    font-size: 2.5vh;
-    font-family: $letra-titulo;
-    margin: 2px;
-    @media (max-width: 575.98px) {
-      font-size: 2vh;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      font-size: 2vh;
-    }
-  }
+        color: rgb(209, 209, 209);
+        font-size: 1.2rem;
+        font-family: $letra-titulo;
+        margin: 2px;
+        @media (max-width: 575.98px) {
+          font-size: 0.8rem;
+            }
+      }
+      
 }
+

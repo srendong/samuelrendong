@@ -1,7 +1,6 @@
 import React from "react";
 import {
   CircularProgressbar,
-  CircularProgressbarWithChildren,
   buildStyles
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -9,7 +8,7 @@ import "react-circular-progressbar/dist/styles.css";
 // Animation
 import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "../AnimatedProgressProvider/AnimatedProgressProvider";
-import ChangingProgressProvider from "../ChargingProgressProvider/ChargingProgressProvider";
+
 
 const Circulo = ({ valueStart, valueEnd, name }) => {
   return (
@@ -31,7 +30,7 @@ const Circulo = ({ valueStart, valueEnd, name }) => {
             styles={buildStyles({
               pathTransition: "none",
               pathColor: `#B6B5B8`,
-              textColor: "#FAF5F2",
+              textColor: "rgb(209, 209, 209)",
               trailColor: "#FAF5F2",
               backgroundColor: "#3e98c7"
             })}

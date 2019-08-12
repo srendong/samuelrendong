@@ -1,76 +1,15 @@
 .works {
   height: 100vh;
   background-color: $fondo-works;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  @media (max-width: 575.98px) {
-    height: 100%;
-  }
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    height: 100%;
-  }
-  .contenido {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 575.98px) {
-      width: 100%;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      width: 100%;
-    }
-  }
   h3 {
-    font-size: 10vh;
-    font-weight: $weight-titulo;
-    font-family: $family-titulo;
-    color: $color-titulo-o;
-    margin: 2vh;
-    @media (max-width: 575.98px) {
-      margin: 2rem;
-      font-size: 3rem;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      margin: 3rem;
-      font-size: 3rem;
-    }
-  }
-  .proyects {
-    display: flex;
-    width: 90%;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 2vh;
+    @include titulo;
+    color: rgb(255, 252, 233);
   }
   .proyect {
-    display: flex;
-    background-color: #000;
-    height: 30vh;
-    width: 30vh;
-    margin: 0.1rem;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    @media (max-width: 575.98px) {
-      width: 8rem;
-      height: 8rem;
-    }
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      width: 15rem;
-      height: 15rem;
-    }
-    // @media (min-width: 992px) and (max-width: 1199.98px) {
-    //   width: 28vh;
-    //   height:28vh; }
-    // @media (min-width: 1200px) {
-    //   width: 35vh;
-    //   height:35vh;
-    // }
-  }
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
 }

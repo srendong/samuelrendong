@@ -18,65 +18,71 @@ const Skills = () => {
   const ligthroom = 80;
 
   return (
-    <div className="skills">
-      <div className="contenido ">
-        <h3 className="">Skills</h3>
-        <div className="elemento1 ">
-          <div className="circulo text-center">
-            <Circulo className="" valueStart={0} valueEnd={html} name="HTML" />
-            <h5>HTML5</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={css} />
-            <h5>CSS3</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={js} />
-            <h5>JS</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={github} />
-            <h5>GIT-Github</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={sass} />
-            <h5>Sass/scss</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={bootstrap} />
-            <h5>Bootstrap</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={flexbox} />
-            <h5>Flexbox</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={redux} />
-            <h5>Redux</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={restfetch} />
-            <h5>Rest-Fetch</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={react} />
-            <h5>React</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={photoshop} />
-            <h5>Photoshop</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={illustrator} />
-            <h5>Illustrator</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={premiere} />
-            <h5>Premiere pro</h5>
-          </div>
-          <div className="circulo text-center">
-            <Circulo valueStart={0} valueEnd={ligthroom} />
-            <h5>Ligthroom</h5>
+    <div className="container-flow d-flex align-items-stretch skills">
+      <div className="container contenido  d-flex flex-column justify-content-around">
+        <div className="row  ">
+            <h3 className="col-12 text-center">Skills</h3>
+        </div>
+        <div className="row ">
+          <div className="col-12 container border border-right-0 p-4 border-bottom-0 border-top-0 ">
+            <div className="row align-items-center">
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={html} name="HTML" />
+                <h5>HTML5</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={css} />
+                <h5>CSS3</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={js} />
+                <h5>JS</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={github} />
+                <h5>GIT-Github</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={sass} />
+                <h5>Sass/scss</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={bootstrap} />
+                <h5>Bootstrap</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={flexbox} />
+                <h5>Flexbox</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={redux} />
+                <h5>Redux</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={restfetch} />
+                <h5>Rest-Fetch</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={react} />
+                <h5>React</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={photoshop} />
+                <h5>Photoshop</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={illustrator} />
+                <h5>Illustrator</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={premiere} />
+                <h5>Premiere pro</h5>
+              </div>
+              <div className="col-3 col-md-2 text-center mb-4">
+                <Circulo valueStart={0} valueEnd={ligthroom} />
+                <h5>Ligthroom</h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -84,3 +90,4 @@ const Skills = () => {
   );
 };
 export default Skills;
+

@@ -1,11 +1,10 @@
-.Barra-nav {
+.navbar {
   display: flex;
-  z-index: 20;
-  height: 16vh;
+  height: 20vh;
   width: 100%;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: top 0.6s;
   .boton {
     display: flex;
     align-self: center;
@@ -17,8 +16,8 @@
     border-radius: 1.5vh;
     font-family: $family-titulo;
     font-weight: $weight-subtitulo;
-    color: rgb(105, 105, 100);
-    background-color: rgb(254, 255, 218);
+    color: rgb(255, 255, 255);
+    background-color: rgb(165, 185, 189);
     -webkit-border-radius: 1.5vh;
     -moz-border-radius: 1.5vh;
     -ms-border-radius: 1.5vh;
@@ -35,6 +34,8 @@
     justify-content: center;
     width: 3vh;
     height: 3vh;
+    position: fixed;
+  top: 0;
     background-color: #fff;
     border-radius: 1.5vh;
     -webkit-border-radius: 1.5vh;
@@ -50,7 +51,7 @@
   }
   .nav-bar {
     display: flex;
-    background-color: rgb(254, 255, 218);
+    background-color: rgba(165, 185, 189, 0.65);
     height: 40%;
     width: 70%;
     flex-flow: row wrap;
@@ -73,8 +74,9 @@
       width: 90%;
     }
     .links {
-      font-weight: $weight-subtitulo;
-      color: rgb(89, 107, 106);
+      font-weight: 700;
+      font-family: $family-titulo;
+      color: rgb(255, 255, 255);
       font-size: 2vh;
       margin: 0;
       padding: 0;
@@ -111,9 +113,13 @@
       font-weight: $weight-subtitulo;
       color: white;
       font-size: 2vh;
+      &hover{
+        cursor: pointer;
+      }
     }
-    .links:hover {
-      cursor: pointer;
-    }
+ 
   }
+}
+.navbar--hidden {
+  top: -50px;
 }

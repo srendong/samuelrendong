@@ -10,10 +10,12 @@ import Navbar from "./Components/Navbar/Navbar";
 import { Element } from "react-scroll";
 
 class App extends Component {
-  state = {};
+  state = {
+
+  };
   render() {
     return (
-      <div className>
+      <div onScroll={this.handlerScroll}>
         <Navbar />
         <Element name="hello">
           <Hello />
