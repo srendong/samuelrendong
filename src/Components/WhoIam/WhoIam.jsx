@@ -11,7 +11,7 @@ const Main = () => {
       </div>
       </div>
         <div className="row">
-          <h3 className="col-12 text-center">Who I am?</h3>
+          <h3 className="col-12 text-center">About me</h3>
         </div>
         <div className="row">
         <p className="parrafo text-justify ">

@@ -41,7 +41,7 @@ class Navbar extends Component {
             Home
           </Link>
           <Link className="links" smooth={true} to="whoIAm">
-            Who I am
+            About me
           </Link>
           <Link className="links" smooth={true} to="skills">
             Skills
