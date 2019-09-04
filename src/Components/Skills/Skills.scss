@@ -5,15 +5,31 @@
     color: $subtitle-color1;
     @include titulo
   }
-  h5 {
-        color: rgb(209, 209, 209);
-        font-size: 1.2rem;
-        font-family: $letra-titulo;
-        margin: 2px;
-        @media (max-width: 575.98px) {
-          font-size: 0.8rem;
-            }
-      }
+  .skill , .skillD{
+    h5 {
+      color: rgb(255, 255, 255);
+      font-size: 1.5rem;
+      font-family: $letra-titulo;
+      font-weight: 700;
+      margin: 2px;
+      @media (max-width: 575.98px) {
+        font-size: 0.8rem;
+          }
+    }
+    
+    border: solid 2px;
+    border-color: rgb(103, 255, 235);
+    border-radius: 2rem  ;
+    -webkit-border-radius: 2rem  ;
+    -moz-border-radius: 2rem  ;
+    -ms-border-radius: 2rem  ;
+    -o-border-radius: 2rem  ;
+}
+.skillD{
+  border: solid 2px;
+    border-color: rgb(255, 124, 124);
+}
+  
       
 }
 

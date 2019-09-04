@@ -18,7 +18,7 @@ const Main = () => {
             I am a <b>Product Design Engineer</b> and
             <b> front-end developer</b>, with more than three years of
             experience in areas of engineering, projects, design and web
-            development. Currently I work as a freelance programmer. <br />{" "}
+            development. Currently I work as a freelance developer. <br />{" "}
             <br />
             <span className="d-none d-sm-block">
             On a personal level I recognize strengths to learn on my own, work
