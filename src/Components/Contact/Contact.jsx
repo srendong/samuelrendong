@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="col-12 ml-4 d-flex flex-column align-content-center">
             <h5>E-mail: <span>s.rendon.g@gmail.com</span></h5>
             <h5>Cellphone: <span>+57 3146820353</span></h5>
-            <h5>Ubication: <span>Medellín - Colombia</span></h5>
+            <h5>Location: <span>Medellín - Colombia</span></h5>
           </div>
         </div>
         <div className="col-12 col-md-4 mb-3">

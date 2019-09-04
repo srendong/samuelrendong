@@ -9,7 +9,7 @@
   }
   h3{
     @include titulo;
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(219, 217, 217);
 
   }
@@ -22,100 +22,3 @@
     @include parrafo
   }
 }
-
-// .contact {
-//   display: flex;
-//   flex-flow: row wrap;
-//   height: 30vh;
-//   width: 100%;
-//   background-color: $fondo-contact;
-//   @media (max-width: 575.98px) {
-//     height: 100%;
-//   }
-//   @media (min-width: 576px) and (max-width: 767.98px) {
-//     height: 100%;
-//   }
-//   .contenido {
-//     display: flex;
-//     width: 100%;
-//     flex-flow: row wrap;
-//     justify-content: space-around;
-//     align-items: center;
-//   }
-//   .data {
-//     display: flex;
-//     flex-flow: column wrap;
-//     justify-items: space-between;
-//     align-content: flex-start;
-//     div {
-//       display: flex;
-//       flex-flow: row wrap;
-//       align-items: baseline
-//     }
-//   }
-//   .redes {
-//       display: flex;
-//       flex-flow: row wrap;
-//       align-items: center;
-//       justify-content: space-between;
-      
-//   }
-//   .red{
-//     width: 10vh;
-//     height: 10vh;
-//     background-color: #fff;
-//     margin: .5rem;
-//     margin-bottom: 1rem;
-//     display: flex;
-//     border-radius: 5vh  ;
-//     -webkit-border-radius: 5vh  ;
-//     -moz-border-radius: 5vh  ;
-//     -ms-border-radius: 5vh  ;
-//     -o-border-radius: 5vh  ;
-// }
-//   .red:hover{
-//     cursor: pointer;
-//   }
-//   h3 {
-//     font-size: 6vh;
-//     font-weight: $weight-titulo;
-//     font-family: $family-titulo;
-//     color: $color-titulo-c;
-    
-//     @media (max-width: 575.98px) {
-//       margin: 2rem;
-//     }
-//     @media (min-width: 576px) and (max-width: 767.98px) {
-//       margin: 3rem;
-//     }
-//   }
-//   h5 {
-//     font-size: 4vh;
-//     font-weight: $weight-subtitulo;
-//     font-family: $family-subtitulo;
-//     color: $color-titulo-c;
-//     @media (max-width: 575.98px) {
-//       margin: 0.5rem;
-//       font-size: 3vh
-//     }
-//     @media (min-width: 576px) and (max-width: 767.98px) {
-//       margin: 0.5rem;
-//       font-size: 3vh
-//     }
-//   }
-//   p {
-//     font-size: 4vh;
-//     font-weight: $weight-parrafo;
-//     font-family: $family-titulo;
-//     color: $color-titulo-c;
-//     margin-left: .5rem;
-//      @media (max-width: 575.98px) {
-//       margin: 0.5rem;
-//       font-size: 2.5vh
-//     }
-//     @media (min-width: 576px) and (max-width: 767.98px) {
-//       margin: 0.5rem;
-//       font-size: 2.5vh
-//     }
-//   }
-// }

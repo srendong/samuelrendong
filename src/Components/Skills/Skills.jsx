@@ -25,47 +25,47 @@ const Skills = () => {
         </div>
         <div className="row ">
           <div className="col-12 container   ">
-            <div className="row justify-content-center align-items-center">
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+            <div className="row justify-content-center">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>HTML5</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>CSS3</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>JS</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>GIT-Github</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>Sass/scss</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>Bootstrap</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>Flexbox</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>Redux</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>Rest - Fetch & Axios</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skill ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skill ">
                 <h5>React</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skillD ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skillD ">
                 <h5>Photoshop</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skillD ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skillD ">
                 <h5>Illustrator</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skillD ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skillD ">
                 <h5>Premiere pro</h5>
               </div>
-              <div className="col-4 col-md-5 m-2 p-3 text-center skillD ">
+              <div className="col-4 col-md-4 col-xl-4 m-1 ml-3 mr-3  p-3 text-center skillD ">
                 <h5>Ligthroom</h5>
               </div>
             </div>
