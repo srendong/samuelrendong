@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f26da32f577f8a41b025437d0a190d3",
+    "revision": "4f7cb001e03b252588d5005927871161",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9e94b197.chunk.css"
   },
   {
-    "revision": "94aaf96f0f5e74118398",
-    "url": "/static/css/main.9f6d928b.chunk.css"
+    "revision": "9b8e5b66ecf13b04e333",
+    "url": "/static/css/main.d9126e0c.chunk.css"
   },
   {
     "revision": "244a2a9984473984bdae",
     "url": "/static/js/2.c9de2d75.chunk.js"
   },
   {
-    "revision": "94aaf96f0f5e74118398",
-    "url": "/static/js/main.a513867e.chunk.js"
+    "revision": "9b8e5b66ecf13b04e333",
+    "url": "/static/js/main.923ac113.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Eafit.4dcd405c.jpg"
   },
   {
-    "revision": "06c779a0653e4a01384c6140a0726114",
-    "url": "/static/media/FotoPerfil.06c779a0.jpg"
+    "revision": "8d636472d5f3d08d52eba2d6cb11957f",
+    "url": "/static/media/FotoPerfil.8d636472.jpeg"
   },
   {
     "revision": "df2abe81ffa712e6c5460f9f331c6865",
